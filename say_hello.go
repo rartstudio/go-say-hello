@@ -1,5 +1,5 @@
 package go_say_hello
 
-func SayHello() string {
-	return "Hello from newer version 1.1.0"
+func SayHello(name string) string {
+	return "Hello from newer version 2.0.0" + name
 }
